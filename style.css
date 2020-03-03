@@ -1,0 +1,65 @@
+.container{
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* Header Title */
+.neon{
+  position: relative;
+  color: #fff;
+  text-shadow: 0 0 20px #ff005b;
+}
+.neon:after{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0 20px;
+  z-index: -1;
+  color: red;
+  filter: blur(15px);
+}
+.alert-success{
+  text-align: center;
+  background: #002366;
+  color: #fff;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+button{
+  margin: 6px;
+  cursor: default !important;
+}
+.badge{
+  cursor: pointer !important;
+}
+.badge:hover a{
+  color: black;
+  text-decoration: none;
+}
+a{
+  color: black;
+}
+.btn-warning{
+  cursor: pointer !important;
+}
+.btn-warning a{
+  color: white;
+}
+.btn-warning a:hover{
+  text-decoration: none;
+}
+.alert-primary{
+  margin-top: 12px;
+}
+.btn-danger{
+  cursor:pointer !important;
+}
+/* Diet Plan */
+.diet-plan{
+  box-sizing: border-box !important;
+  overflow: hidden;
+}
